@@ -26,7 +26,7 @@ To generate a BCR library with 1000 sequences for a number of starting residue (
 abgpt_generate --chain_type heavy --starting_residue QVQL,EVQL,VQLV --num_seqs_each_starting_residue 1000
 ```
 
-To generate a BCR library with 1000 sequences for a number of starting residue (e.g., "QVQL", "EVQL", "VQLV") in the light chain:
+To generate a BCR library with 1000 sequences for a number of starting residue (e.g., "EIVL", "EIVM", "DIQM") in the light chain:
 ```bash
 abgpt_generate --chain_type light --starting_residue EIVL,EIVM,DIQM --num_seqs_each_starting_residue 1000
 ```
